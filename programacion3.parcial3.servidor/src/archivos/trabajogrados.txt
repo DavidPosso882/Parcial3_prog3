@@ -1,0 +1,10 @@
+TG001;2023-05-15;Implementación de un sistema de reconocimiento facial para seguridad en campus universitarios;Este proyecto desarrolla un sistema de reconocimiento facial en el campus de la Universidad del Quindío;A001;A002
+TG002;2023-06-22;Análisis del impacto ambiental de la producción de café en el Quindío;Esta investigación evalúa los efectos ambientales de la producción de café en la región del Quindío y propone estrategias de mitigación;A003;A004;A005
+TG003;2023-07-10;Desarrollo de una aplicación móvil para el turismo en el Eje Cafetero;Este proyecto crea una aplicación móvil interactiva para promover el turismo en la región del Eje Cafetero, incluyendo el Quindío;A006;A007
+TG004;2023-08-05;Estudio de la biodiversidad en el Parque Nacional Natural Los Nevados;Esta investigación analiza la flora y fauna del Parque Nacional Natural Los Nevados y su importancia ecológica para la región;A008;A009;A010
+TG005;2023-09-18;Diseño de un sistema de energía solar para edificios de la Universidad del Quindío;Este proyecto propone un sistema de energía solar para reducir el consumo eléctrico en los edificios del campus universitario;A011;A012
+TG006;2023-10-30;Análisis de la calidad del agua en los ríos del departamento del Quindío;Esta investigación evalúa la calidad del agua;A013;A014;A015
+TG007;2023-11-25;Desarrollo de un videojuego educativo sobre la cultura Quimbaya;Este proyecto crea un videojuego interactivo para enseñar sobre la historia y cultura Quimbaya a estudiantes de primaria;A016;A017
+TG008;2024-01-12;Estudio del impacto económico del turismo en el Quindío post-pandemia;Esta investigación analiza cómo la industria turística del Quindío;A018;A019
+TG009;2024-02-28;Implementación de un sistema de compostaje para residuos orgánicos del campus;Este proyecto diseña e implementa un sistema de compostaje para manejar los residuos orgánicos generados en la Universidad del Quindío;A020;A001
+TG010;2024-03-15;Desarrollo de un asistente virtual para orientación académica en la Universidad del Quindío;Este proyecto crea un asistente virtual basado en IA ;A002;A003;A004

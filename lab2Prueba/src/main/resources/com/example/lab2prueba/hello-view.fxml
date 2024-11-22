@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="405.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2prueba.HelloController">
+   <children>
+      <SplitPane layoutX="287.0" layoutY="159.0" prefHeight="405.0" prefWidth="566.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="300.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="205.0" text="Correo:" />
+                  <TextField fx:id="txtId" layoutX="58.0" layoutY="109.0" />
+                  <Label layoutX="27.0" layoutY="113.0" text="Id:" />
+                  <Label layoutX="11.0" layoutY="160.0" text="Nombre:" />
+                  <TextField fx:id="txtNombre" layoutX="63.0" layoutY="156.0" />
+                  <TextField fx:id="txtCorreo" layoutX="63.0" layoutY="201.0" />
+                  <Label layoutX="21.0" layoutY="259.0" text="Tipo:" />
+                  <TextField fx:id="txtTipo" layoutX="63.0" layoutY="255.0" prefHeight="25.0" prefWidth="149.0" promptText="1:Juvenil - 2:Adulto" />
+                  <Label layoutX="86.0" layoutY="43.0" text="Miembro">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnBuscar" layoutX="212.0" layoutY="109.0" mnemonicParsing="false" onAction="#buscarMiembro" prefHeight="17.0" prefWidth="26.0" text="Button" />
+                  <Label fx:id="lbTipo" layoutX="63.0" layoutY="246.0" />
+                  <Button fx:id="btnModificar" layoutX="331.0" layoutY="177.0" mnemonicParsing="false" onAction="#editarMiembroAction" text="Modificar" />
+                  <Button fx:id="btnGuardar" layoutX="331.0" layoutY="109.0" mnemonicParsing="false" onAction="#guardarMiembroAction" prefHeight="25.0" prefWidth="67.0" text="Guardar" />
+                  <Button fx:id="btnEliminar" layoutX="331.0" layoutY="255.0" mnemonicParsing="false" onAction="#eliminarMiembroAction" prefHeight="25.0" prefWidth="67.0" text="Eliminar" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

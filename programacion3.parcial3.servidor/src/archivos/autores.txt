@@ -1,0 +1,20 @@
+A001;Juan;Pérez;1089345678;Ingeniería de Sistemas;Ingeniero de Sistemas
+A002;María;González;1085678901;Ingeniería Electrónica;Ingeniera Electrónica
+A003;Carlos;Rodríguez;1087234567;Administración de Empresas;Administrador de Empresas
+A004;Ana;Martínez;1086789012;Biología;Bióloga
+A005;Luis;Sánchez;1088901234;Ingeniería Ambiental;Ingeniero Ambiental
+A006;Laura;López;1084567890;Ingeniería de Software;Ingeniera de Software
+A007;Diego;Hernández;1083456789;Diseño Gráfico;Diseñador Gráfico
+A008;Sofía;Díaz;1082345678;Medicina;Médica
+A009;Andrés;Torres;1081234567;Biología;Biólogo
+A010;Valentina;Ramírez;1089012345;Ingeniería Civil;Ingeniera Civil
+A011;Sebastián;Gómez;1087890123;Ingeniería Eléctrica;Ingeniero Eléctrico
+A012;Camila;Vargas;1086789012;Arquitectura;Arquitecta
+A013;Daniel;Morales;1085678901;Química;Químico
+A014;Isabella;Castro;1084567890;Ingeniería Industrial;Ingeniera Industrial
+A015;Mateo;Ríos;1083456789;Ciencias de la Computación;Ingeniero en Ciencias de la Computación
+A016;Valeria;Ortiz;1082345678;Diseño de Videojuegos;Diseñadora de Videojuegos
+A017;Santiago;Rojas;1081234567;Ingeniería Multimedia;Ingeniero Multimedia
+A018;Lucía;Medina;1089012345;Economía;Economista
+A019;Emilio;Cardona;1087890123;Administración Turística;Administrador Turístico
+A020;Mariana;Ospina;1086789012;Ingeniería Agroindustrial;Ingeniera Agroindustrial

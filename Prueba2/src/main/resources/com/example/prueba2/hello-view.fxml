@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prueba2.HelloController">
+    <children>
+        <VBox alignment="CENTER" spacing="10" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <Label text="Deporte" />
+            <HBox spacing="10">
+                <Label text="ID:" />
+                <TextField fx:id="idTextField" />
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Nombre del Deporte:" />
+                <TextField fx:id="nombreTextField" />
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Dificultad:" />
+                <ChoiceBox fx:id="dificultadChoiceBox">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="1 - Baja" />
+                            <String fx:value="2 - Media" />
+                            <String fx:value="3 - Alta" />
+                        </FXCollections>
+                    </items>
+                </ChoiceBox>
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Entrenadores:" />
+                <VBox spacing="5">
+                    <TextField fx:id="entrenadorTextField" />
+                    <Button fx:id="guardarEntrenadorButton" text="Guardar Entrenador" />
+                </VBox>
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Descripción:" />
+                <TextArea fx:id="descripcionTextArea" />
+            </HBox>
+            <HBox spacing="10">
+                <Button fx:id="guardarButton" onAction="#handleGuardar" text="Guardar" />
+                <Button fx:id="eliminarButton" onAction="#handleEliminar" text="Eliminar" />
+                <Button fx:id="modificarButton" onAction="#handleModificar" text="Modificar" />
+            </HBox>
+            <TableView fx:id="deporteTableView">
+                <columns>
+                    <TableColumn fx:id="idColumn" text="ID" />
+                    <TableColumn fx:id="nombreColumn" text="Nombre" />
+                    <TableColumn fx:id="dificultadColumn" text="Dificultad" />
+                    <TableColumn fx:id="entrenadoresColumn" text="Entrenadores" />
+                    <TableColumn fx:id="descripcionColumn" text="Descripción" />
+                </columns>
+            </TableView>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.singleton.BibliotecaController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Label fx:id="titleLabel" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <Button fx:id="changeLanguageBtn" onAction="#changeLanguage"/>
+    <Button fx:id="addBookBtn" onAction="#addBook"/>
+    <Button fx:id="addMemberBtn" onAction="#addMember"/>
+    <Button fx:id="saveDataBtn" onAction="#saveData"/>
+    <Button fx:id="loadDataBtn" onAction="#loadData"/>
+    <TextArea fx:id="logArea" editable="false" prefHeight="200"/>
+</VBox>
